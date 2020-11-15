@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Index.master.cs" Inherits="Index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .DimensionesCabecera {
+            width: 557px;
+            height: 118px;
+        }
+        .AlineadoCabecera {
+            text-align: center;
+        }
+        .PieTexto {
+            text-align: center;
+            border-radius: 7px;
+            background: #660916;
+            border: none;
+            color: white;           
+            width: 99%;
+            height: 60px;
+            position: absolute;
+            
+    
+        }
+    </style>
+
+</head><header class="AlineadoCabecera">
+    <img src="img/logo_utec.png" class="DimensionesCabecera" /></header>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+    <footer class="PieTexto"> 
+        <br />
+        Universidad Técnologica de El Salvador - CONTROL DE ASISTENCIA POR RFID - Todos los derechos reservados 2019
+        </footer>
+</html>
